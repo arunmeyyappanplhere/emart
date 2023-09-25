@@ -661,3 +661,11 @@ p{
 #privacy-policy h2, #terms-conditions h2{
   font-size: 2rem;
 }
+
+.stall-btn{
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
