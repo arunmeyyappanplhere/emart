@@ -1,0 +1,29 @@
+let li = document.querySelector("li");
+let day = document.querySelector(".day");
+let paragraph = document.querySelector("ul#list p");
+
+let lis = document.querySelectorAll("li");
+let paragraphs = document.querySelectorAll("li#special p");
+
+function sayHi() {
+  alert("hi");
+}
+let element = document.querySelector("#city");
+element.addEventListener("click", sayHi);
+
+function sayHello() {
+  alert('Hello')
+}
+setTimeout(sayHello, 3000);
+
+let li = document.querySelector("li#special");
+li.classList.remove("liked");
+li.classList.add("something");
+
+let li = document.querySelector("li")
+li.innerHTML = "Hello World";
+
+localStorage.setItem("lastname", "Smith");
+localStorage.getItem("lastname");
+
+
