@@ -17,72 +17,34 @@
             <ul id="navbar">
                 <li><a  href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a class="active" href="stalls.html">Stalls</a></li>
+                <li><a href="stalls.html">Stalls</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href=""><i id="cart-ico" class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a class="active" href=""><i id="cart-ico" class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </div>
     </section>
-    <!--home page-->
-    <section id="shop-header">
-        <h2>#Stalls</h2>
-        <p>Time for Vageesha Currency</p>
+    <!--Header-->
+    <section id="shop-header" id="about-header">
+        <h2># Lets Connect</h2>
+        <p>Communication is the key</p>
     </section>
-    <!--products-->
-    <section id="product1" class="section-p1">
-        <div class="pro-container">
-            <!--P1-->
-            <div class="pro" onclick="window.location.href='yummy-bites.html'">
-                <img src="images/products/f1.jpg" alt="">
-                <div class="des">
-                    <span>Food and snacks</span>
-                    <h5>Yummy Bites</h5>
-                    <div class="sta">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-            <!--P2-->
-            <div class="pro" onclick="window.location.href='home-made-emporium.html'">
-                <img src="images/products/f2.jpg" alt="">
-                <div class="des">
-                    <span>Food & Accessories</span>
-                    <h5>Home Made Emporium</h5>
-                    <div class="sta">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-            <!--P3-->
-            <div class="pro" onclick="window.location.href='roll-shine.html'">
-                <img src="images/products/f3.jpg" alt="">
-                <div class="des">
-                    <span>Cosmetics</span>
-                    <h5>Roll And Shine</h5>
-                    <div class="sta">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-        </div>
-    </section>
-
+    <!--content-->
+        <section id="cart" class="section-p1">
+            <table width="100%" id="tbl">
+                <thead>
+                    <tr>
+                        <td>Image</td>
+                        <td>Name</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Qunatity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                
+            </table>
+        </section>
         <!--footer-->
         <footer class="section-p1">
             <div class="col">
@@ -119,6 +81,6 @@
                 <p>Developed by Arun Meyyappan PL, Deepak Kumar N, Jeevanantham J</p>
             </div>
         </footer>
-    <script src="index.js"></script>
+        <script src="cart.js"></script>
 </body>
 </html>

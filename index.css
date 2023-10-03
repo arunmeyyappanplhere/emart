@@ -607,11 +607,11 @@ footer .copyright span{
 }
 
 #pro-details .single-pro-details input{
-  width: 50px;
-  height: 47px;
+  width: 130px;
+  height: 50px;
   padding-left: 10px;
   font-size: 16px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 #pro-details .single-pro-details input:focus{
@@ -668,4 +668,71 @@ p{
   white-space: nowrap;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+#cart table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+  font-family: "Spartan", sans-serif;
+}
+
+#cart table img{
+  width: 30%;
+}
+
+#cart table td:nth-child(1){
+    width: 25%;
+    text-align: center;
+}
+
+#cart table td:nth-child(2){
+    width: 15%;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(3),
+#cart table td:nth-child(4),
+#cart table td:nth-child(5){
+    width: 15%;
+    text-align: center;
+}
+
+#cart table thead{
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+#cart table thead td{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 18px 0;
+}
+
+#cart table tbody tr td{
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+#cart tbody td button{
+  background-color: #088178;
+  color: white;
+}
+
+#pro-details .single-pro-details #name-box{
+  width: 280px;
+  display: block;
+}
+
+#pro-details .single-pro-details #qunatity-box, #pro-details .single-pro-details #room-no{
+  width: 130px;
+  margin-top: 30px;
+}
+
+.inps{
+  margin-bottom: 30px;
 }
