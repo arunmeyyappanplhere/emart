@@ -49,7 +49,7 @@ function buy(){
 
     // Yummy Bites direct tcc, ssh connection
     if(stallName === "YUMMY BITES"){
-        window.open(`https://wa.me/+919042649000/?text=${cpyDetails}`);
+        window.open(`https://wa.me/+916374274088/?text=${cpyDetails}`);
     }
     // Roll And Shine direct tcc, ssh connection
     else if(stallName === "ROLL AND SHINE"){
