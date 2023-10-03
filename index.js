@@ -41,7 +41,7 @@ function buy(){
         window.localStorage.setItem("Order History", JSON.stringify(arr));
     };
 
-    window.alert("Thank You, your order placed successfully!");
+    window.alert("Thank You, your order placed successfully! Send the details through whatsapp.");
 
 
     cpyDetails = `Stall name          : ${stallName}%0aProduct name    : ${productName}%0aPrice                   : ${price}%0aQuantity             : ${quantity}%0aSubtotal             : ${subTotal}%0aRoom no            : ${roomNo} %0aCustomer name : ${customerName}`;

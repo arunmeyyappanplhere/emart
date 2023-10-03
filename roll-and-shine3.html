@@ -19,18 +19,42 @@
                 
                 <li><a href="stalls.html">Stalls</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="cart.html"><i id="cart-ico" class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </div>
     </section>
-    <!--Header-->
-    <section id="shop-header" id="about-header">
-        <h2># Lets Connect</h2>
-        <p>Communication is the key</p>
+    <section id="pro-details" class="section-p1">
+        <div class="single-pro-img">
+            <img src="images/Bg-removed figma/New folder (3)/Frame 94.png" width="100%" id="main-img" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/Bg-removed figma/New folder (3)/Frame 94.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Bg-removed figma/New folder (3)/Frame 130.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Bg-removed figma/New folder (3)/Frame 20.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Bg-removed figma/New folder (3)/Frame 9.png" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6 id="stall-name">ROLL AND SHINE</h6>
+            <h4 id="product-name">Black and Gold Bangles with Earings</h4>
+            <h2>C <span  id="price">18</span></h2>
+            <input required type="text" id="name-box" placeholder="Customer Name">
+            <div class="inps">
+                
+                <input required type="text" id="room-no" placeholder="Room no">
+                <input onclick="level()" type="number" id="quantity-box" placeholder="Quantity">
+            </div>
+            <button class="normal fnl-buy" onclick="buy()">Add to Cart</button>
+        </div>
     </section>
-    <!--content-->
-    
         <!--footer-->
         <footer class="section-p1">
             <div class="col">
@@ -67,6 +91,23 @@
                 <p>Developed by Arun Meyyappan PL, Deepak Kumar N, Jeevanantham J</p>
             </div>
         </footer>
+    <script>
+        var mainImage = document.getElementById("main-img")
+        var smallImage = document.getElementsByClassName("small-img")
+
+        smallImage[0].onclick = function(){
+            mainImage.src = smallImage[0].src
+        }
+        smallImage[1].onclick = function(){
+            mainImage.src = smallImage[1].src
+        }
+        smallImage[2].onclick = function(){
+            mainImage.src = smallImage[2].src
+        }
+        smallImage[3].onclick = function(){
+            mainImage.src = smallImage[3].src
+        }
+    </script>
     <script src="index.js"></script>
 </body>
-</html>
+</html> 
