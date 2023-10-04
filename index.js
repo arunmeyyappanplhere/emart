@@ -53,7 +53,7 @@ function buy(){
     }
     // Roll And Shine direct tcc, ssh connection
     else if(stallName === "ROLL AND SHINE"){
-        window.open(`https://wa.me/+919787512353/?text=${cpyDetails}`);
+        window.open(`https://wa.me/+919944965696/?text=${cpyDetails}`);
     }
     // Home Made Emporium direct tcc, ssh connection
     else if(stallName === "HOME MADE EMPORIUM"){
