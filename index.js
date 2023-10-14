@@ -49,15 +49,15 @@ function buy(){
 
     // Yummy Bites direct tcc, ssh connection
     if(stallName === "YUMMY BITES"){
-        window.open(`https://wa.me/+916374274088/?text=${cpyDetails}`);
+        window.open(`https://wa.me/+919042649000/?text=${cpyDetails}`);
     }
     // Roll And Shine direct tcc, ssh connection
     else if(stallName === "ROLL AND SHINE"){
-        window.open(`https://wa.me/+919944965696/?text=${cpyDetails}`);
+        window.open(`https://wa.me/+919042649000/?text=${cpyDetails}`);
     }
     // Home Made Emporium direct tcc, ssh connection
     else if(stallName === "HOME MADE EMPORIUM"){
-        window.open(`https://wa.me/+919150056200/?text=${cpyDetails}`);
+        window.open(`https://wa.me/+919042649000/?text=${cpyDetails}`);
     }
     // Back Up direct tcc, ssh connection
     else{
